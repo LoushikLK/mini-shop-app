@@ -5,8 +5,7 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js",
-    "heroku-postbuild": "yarn install && yarn --cwd ./client install && yarn --cwd ./client run build"
+    "start": "node app.js"
   },
   "keywords": [
     "\"apple",
